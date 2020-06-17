@@ -1,0 +1,34 @@
+The following challenge is based upon the following paper:
+
+http://www.ncbi.nlm.nih.gov/pubmed/24413527
+
+I *strongly* recommend reading the paper through before attempting the 
+challenge. Pretty much all the solutions are contained in there, in slightly
+adapted form - it's your job to comprehend them and code them in Python.
+
+Feedback very welcome!
+
+Grading will be based on: 
+(1) if your code works (see the unit-tests) 
+(2) a cursory assessment of your code (e.g. structure, commenting, perceived elegance) and
+(3) the asymptotic cost of your algorithms (you get the mark for each question if as good (or better) as in the paper referenced above),
+(4) your answers to the questions, which can be provided inline within the code, and provide some description of how you arrived at your answer
+
+I will award 25% of the grade for each category, I will give each individual question equal weight, e.g. Q 2 is worth the same as Q 3a.
+
+To run the python unit-tests do the following:
+(1) ensure both the unit-test file "challenge1UnitTest.py" and your implementation
+"challenge1.py" are in the same directory. 
+(2) In that directory run the python command: "python challenge1UnitTest.py". 
+
+If your code is correct then the tests will all pass.
+Please do not share your answers or copy other code. 
+I will investigate any noted plagiarism!
+
+
+
+
+
+
+
+

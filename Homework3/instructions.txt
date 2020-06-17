@@ -1,0 +1,28 @@
+In this exercise you will create a simple, totally toy mapping algorithm (!) for aligning short *query* strings to a larger *target* string, 
+aka a genome. The mapper is a basic seed and extend algorithm, e.g. see minimap2 https://arxiv.org/pdf/1708.01492.pdf
+
+Tasks:
+
+(1) Complete substring-indexer class, which finds short matches, termed seeds, between a query string and the target string
+(2) Complete cluster class, which clusters seeds to determine probable alignments
+(3) An alignment class, which finds the optimal local alignment between two strings
+
+There are unit-tests for each class and a final integration test. Note, you will
+need to install pysam and numpy (but I'd advise using a virtual environment).
+
+Grading rubric:
+(1) The code is correct (50%) - I have provided some unittests, and have with-held 
+further more exhaustive tests that will examine your code to see if it handles edge cases.
+
+To run the provided the unit tests, with both simpleMap.py and simpleMapTest.py in the same directory, from 
+that directory run:
+
+--> python simpleMapTest.py
+
+(2) Answers to inline questions (25%) - each is given equal weight
+
+(3) Performance in terms of speed and accuracy (25%) - for this we'll look at the time it takes your
+implementation to map the test input. To run the example do:
+
+--> python simpleMap.py hg19.chr3.9mb.fa NA12878.ihs.chr3.100kb.1.fastq.tiny --log=DEBUG
+
